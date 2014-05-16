@@ -1,0 +1,32 @@
+@import url(reset.less);
+@import url(shortcuts.less);
+@import url(vars.less);
+
+@font-face {
+    font-family: 'dplogofont';
+    src: url('/static/fonts/dplogofont.eot');
+    src: url('/static/fonts/dplogofont.eot?#iefix') format('embedded-opentype'),
+         url('/static/fonts/dplogofont.woff') format('woff'),
+         url('/static/fonts/dplogofont.ttf') format('truetype'),
+         url('/static/fonts/dplogofont.svg#dplogofont') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'dustyfont';
+    src: url('/static/fonts/dustyfont.eot');
+    src: url('/static/fonts/dustyfont.eot?#iefix') format('embedded-opentype'),
+         url('/static/fonts/dustyfont.woff') format('woff'),
+         url('/static/fonts/dustyfont.ttf') format('truetype'),
+         url('/static/fonts/dustyfont.svg#dustyfont') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+html {color: @color-text-default; background: url("@{imgpath}bg-particles-cd7f32.png") 0 -400px no-repeat @color-black; -webkit-font-smoothing: antialiased;}
+body {font-family: 'dustyfont', arial, helvetica, sans-serif;}
+.logo {font-family: 'dplogofont', arial, helvetica, sans-serif;}
+p {line-height: 1em;font-size: 150px; border: 1px red solid; margin: 0; padding:0;}

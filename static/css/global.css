@@ -1,0 +1,139 @@
+/* Reset.css start */
+html {
+  color: #000;
+  background: #FFF;
+}
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+textarea,
+p,
+blockquote,
+th,
+td {
+  margin: 0;
+  padding: 0;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+fieldset,
+img {
+  border: 0;
+}
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+strong,
+th,
+var {
+  font-style: normal;
+  font-weight: normal;
+}
+ol,
+ul {
+  list-style: none;
+}
+caption,
+th {
+  text-align: left;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+q:before,
+q:after {
+  content: '';
+}
+abbr,
+acronym {
+  border: 0;
+  font-variant: normal;
+}
+sup {
+  vertical-align: text-top;
+}
+sub {
+  vertical-align: text-bottom;
+}
+input,
+textarea,
+select {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+}
+input,
+textarea,
+select {
+  *font-size: 100%;
+}
+legend {
+  color: #000;
+}
+/* Reset.css end *//* Shortcuts.css start */
+#this {
+  border: 1px red solid;
+}
+/* Shortcuts.css end *//* vars.css start */
+/* Global image path */
+/* Color schemes */
+/* vars.css end */@font-face {
+  font-family: 'dplogofont';
+  src: url('/static/fonts/dplogofont.eot');
+  src: url('/static/fonts/dplogofont.eot?#iefix') format('embedded-opentype'), url('/static/fonts/dplogofont.woff') format('woff'), url('/static/fonts/dplogofont.ttf') format('truetype'), url('/static/fonts/dplogofont.svg#dplogofont') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'dustyfont';
+  src: url('/static/fonts/dustyfont.eot');
+  src: url('/static/fonts/dustyfont.eot?#iefix') format('embedded-opentype'), url('/static/fonts/dustyfont.woff') format('woff'), url('/static/fonts/dustyfont.ttf') format('truetype'), url('/static/fonts/dustyfont.svg#dustyfont') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+html {
+  color: #cd7f32;
+  background: url("../img/bg-particles-cd7f32.png") 0 -400px no-repeat #000000;
+  -webkit-font-smoothing: antialiased;
+}
+body {
+  font-family: 'dustyfont', arial, helvetica, sans-serif;
+}
+.logo {
+  font-family: 'dplogofont', arial, helvetica, sans-serif;
+}
+p {
+  line-height: 1em;
+  font-size: 150px;
+  border: 1px red solid;
+  margin: 0;
+  padding: 0;
+}
